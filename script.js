@@ -1,3 +1,3 @@
 document.getElementById('myButton').addEventListener('click', function() {
-    alert('Juhu!');
+    alert('Good Night!');
 });
