@@ -3,12 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"Das ist der Tab Titel!</title>
+    <title>Gästebuch</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Hello, Oswaldingo!</h1>
-<button id="myButton">Click Me</button>
+<h1>Gästebuch</h1>
+
+<!-- Eingabefeld für den Namen -->
+<input type="text" id="nameInput" placeholder="Dein Name" />
+
+<!-- Eingabefeld für die Nachricht -->
+<textarea id="messageInput" placeholder="Deine Nachricht"></textarea>
+
+<!-- Button zum Absenden der Nachricht -->
+<button id="submitButton">Absenden</button>
+
+<h2>Nachrichten:</h2>
+<!-- Hier werden die Nachrichten angezeigt -->
+<div id="messageContainer"></div>
 
 <script src="script.js"></script>
 </body>
